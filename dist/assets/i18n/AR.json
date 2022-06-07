@@ -1,0 +1,189 @@
+{
+    "HELLO": "helloff",
+    "Connexion": "دخول",
+    "Matricule": "رقم التسجيل",
+    "Be safe": "السلامة اولا",
+    "Chute d'objet": "سقوط شيء",
+    "Chute d'hauteur": "سقوط من علو",
+    "Circulation, déplacement, chute de plein pied": "حركية ، مرور ، سقوط",
+    "Energie (électrique, gaz, vapeur, hydraulique, résiduelle …)": "الطاقة الكهرباء، الغاز ، البخار ،الهيدروليكية ، البقايا",
+    "Gestuelle au poste du travail": "ميكانيكية الجسم في مكان العمل",
+    "Incendie et explosion": "نار،انفجار",
+    "Machine ou pièce en mouvement": "آلة او جزء متحرك",
+    "Manutention manuelle": "التعامل اليدوي",
+    "Manutention mécanique": "التعامل الميكانيكي",
+    "Outil à main": "أداة يدوية",
+    "Produit chimique": "مادة كيميائية",
+    "Projection (objet, fluide, poussière)": "التعرض لشيء صلب ،سائل ،غبار",
+    "Environnement du travail (bruit, ambiance lumineuse, ambiance thermique, vibration, rayonnement, …)": "بيئة العمل (ضوضاء ، مستوى الإضاءة ، بيئة حرارية ، اهتزاز ، إشعاع ، إلخ.) ",
+    "Situation dangereuse": "وضعية خطرة",
+    "Presque-accident": "شبه حادث",
+    "Soin": "اسعافات اولية",
+    "Accident sans arrêt": "حادث بدون التوقف عن العمل",
+    "Accident avec arrêt": "حادث مع التوقف عن العمل",
+    "Mélange déchets": "مزج النفايات",
+    "Excès de génération des déchets": "الزيادة في كمية النفايات",
+    "Déversement accidentel": "تسرب عرضي",
+    "Consommation (eau, électricité,gaz, carburant)": "استهلاك (الماء ، الكهرباء ، الغاز ، الوقود)",
+    "Fuite ( eau, gaz, air, carburant)": "تسرب (ماء ، غاز ، هواء ، وقود)",
+    "Stockage produit chimique": "تخزين المنتجات الكيماوية",
+    "Consommation matière première": "استهلاك المواد الخام",
+    "Produit périmé": "منتج منتهي الصلاحية",
+    "Incendie": "حريق",
+    "Explosion": "انفجار",
+    "Pollution/Incendie mineur": "تلوث / حريق طفيف",
+    "Pollution/Incendie sans secours exterieur": "تلوث / حريق بدون مساعدة خارجية",
+    "Pollution/Incendie avec secours extérieur": "تلوث / حريق مع مساعدة خارجية",
+    "Pollution/Incendie majeur": "تلوث / حريق كبير",
+    "Méthode : Pas de procedure definissant le mode operatoire, pas de plan de contrôle , pas d'instruction…": "الطريقة: لا توجد قواعد مكتوبة تحدد وضع التشغيل ، ولا توجد تعاليم تحدد قواعد الجودة ، ولا توجد تعليمات …",
+    "Matériel : Machine en panne, machine/outillage en nombre insuffisant, inadaptée, obsolète, outillage défectueux": "المعدات: آلة معطلة ، آلة / أدوات غير كافية ، أدوات غير مناسبة ، غير صالحة للاستعمال  ، أدوات خاطئة",
+    "Main d'oeuvre : Personnel peu compétent, mal formé, non motivé, en nombre insuffisant": "اليد العاملة: عملة غير كفؤين ، تدريب غير كافي ، يفتقرون إلى الحافز ، عدد عملة غير كافي",
+    "Matière : Matière première non conforme": "المواد: المادة الاولية الغير مطابقة للمواصفات المطلوبة",
+    "Milieu : Condition de travail, bruit, température": "البيئة: ظروف العمل والضوضاء ودرجة الحرارة ",
+    "Management : Méthode d'encadrement, style de commandement, délégation, organisation...": "الإدارة: أسلوب الإشراف ، أسلوب القيادة ، التفويض ، التنظيم ...",
+    "Moyen financier : Budget alloué, cout": "الوسائل المالية: الميزانية المخصصة ، التكلفة",
+    "Très faible": "ضعيف جدا /منخفض جدا",
+    "Faible": "ضعيف",
+    "Moyen": "متوسط",
+    "Grave": "خطير",
+    "STOP card": "!! بطاقة الإيقاف ",
+
+    "QUALITY": {
+        "text": "جودة",
+        "icon": "fas fa-thumbs-up",
+        "color": "#800080"
+    },
+    "SAFETY": {
+        "text": "سلامة",
+        "icon": "fas fa-shield-alt",
+        "color": "#DAA520"
+    },
+    "ENVIRONMENT": {
+        "text": "محيط",
+        "icon": "fab fa-envira",
+        "color": "#228B22"
+    },
+
+    "Déclarer une DS": "الاعلان عن وضعيّة خطرة",
+    "Faire une suggestion": "تقديم اقتراح",
+    "a": {
+        "a1": "a1",
+        "icon": "android"
+    },
+    "Lancement nouveaux projets": {
+        "text": "1- إطلاق مشروع جديد",
+        "image": "assets/QNN/Q1.png"
+    },
+    "OK 1ère pièce": {
+        "text": "2- المصادقة على القطعة الأولى",
+        "image": "assets/QNN/Q2.png"
+    },
+    "Auto controle et Arret au défaut": {
+        "text": "3- المراقبة الذاتية والتوقف عند ظهور عيب",
+        "image": "assets/QNN/Q3.png"
+    },
+    "Retouche sous controle": {
+        "text": "4- الإصلاح تحت السيطرة",
+        "image": "assets/QNN/Q4.png"
+    },
+    "Gestion des rejets": {
+        "text": "5- التصرف في الإنتاج المرفوض",
+        "image": "assets/QNN/Q5.png"
+    },
+    "Méthode standardisée de resolution de problème": {
+        "text": "6- الطرق الموحدة لحل الإشكاليات",
+        "image": "assets/QNN/Q6.png"
+    },
+    "Capabilité des process": {
+        "text": "7- مقدرة مراحل الإنتاج",
+        "image": "assets/QNN/Q7.png"
+    },
+    "Gestion des murs qualité temporaires(TQW)": {
+        "text": "8- إدارة جدران الجودة الؤقتة",
+        "image": "assets/QNN/Q8.png"
+    },
+    "Autres": {
+        "text": "قواعد اخرى",
+        "image": " assets/QNN/other.png"
+    },
+
+    "Situation à risques": {
+        "text": "1- الحالات المنطوية على مخاطر",
+        "image": "assets/regles_dor/S1.png"
+    },
+    "Circulation": {
+        "text": "2- حركة المرور",
+        "image": "assets/regles_dor/S2.png"
+    },
+    "Gestes, postures outillages": {
+        "text": "3.الحركات، الوضعيات، الأدوات",
+        "image": "assets/regles_dor/S3.png"
+    },
+    "Équipements de protection": {
+        "text": "4- تجهيزات الحماية",
+        "image": "assets/regles_dor/S4.png"
+    },
+    "Permis de travail": {
+        "text": "5- رخصة العمل",
+        "image": "assets/regles_dor/S5.png"
+    },
+    "Opérations de levage": {
+        "text": "6- عمليات الرفع",
+        "image": "assets/regles_dor/S6.png"
+    },
+    "Systèmes alimentés en énergie": {
+        "text": "7- النظم المزودة بالطاقة",
+        "image": "assets/regles_dor/S7.png"
+    },
+    "Espaces confinés": {
+        "text": "8- الأمكنة المغلقة",
+        "image": "assets/regles_dor/S8.png"
+    },
+    "Travaux de fouille": {
+        "text": "9- أعمال الحفر",
+        "image": "assets/regles_dor/S9.png"
+    },
+    "Travaux en hauteur": {
+        "text": "10- الأعمال في العلو",
+        "image": "assets/regles_dor/S10.png"
+    },
+    "Gestion du changement": {
+        "text": "11- عمل بحرارة مرتفعة",
+        "image": "assets/regles_dor/S11.png"
+    },
+    "Opérations simultanées ou coactivités": {
+        "text": "12- خط خطر",
+        "image": "assets/regles_dor/S12.png"
+    },
+    "Autre": "سبب آخر",
+    "Rules": "القواعد التي تم تجاوزها",
+    "Causes de risque": "أسباب الخطر",
+    "Choisir le type de DS": "نوع الوضعيّة الخطرة",
+    "Lieu de DS": "موقع الوضعيّة الخطرة",
+    "Niveau de gravité du risque": "مستوى الخطورة",
+    "Décrire brièvement le risque": "صف بإيجاز ما حدث",
+    "Risque machine": "هل تتمثل هذه الوضعية في خطر آلة ؟",
+    "Envoyer et terminer": "انهاء و ارسال",
+    "Suivant": "التالي ←",
+    "Retour": "→ رجوع",
+
+    "Saisissez votre matricule":"ادخل رمز التسجيل",
+    "Description": " وصف الحالة",
+    "Saisissez une autre cause": "اذكر سببا اخر",
+
+    "direction": "rtl",
+
+    "Confirmation":"التأكيد",
+    "Confirmez-vous vos informations ?": "هل تؤكد معلوماتك ؟",
+    "Annuler": "إلغاء",
+    "Confirmer et continuer":"تأكيد و مواصلة",
+
+    "Rules_QNN": "قواعد الجودة التي تم تجاوزها",
+    "Rules_OR": "قواعد السلامة التي تم تجاوزها",
+
+    "oui": "نعم",
+    "non": "لا",
+
+    "optionnel": "اختياري",
+    "declarant": "المعلن عن الوضعيّة الخطرة"
+}

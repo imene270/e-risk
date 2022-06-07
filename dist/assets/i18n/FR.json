@@ -1,0 +1,191 @@
+{
+    "HELLO": "hello",
+    "Connexion": "Connexion",
+    "Matricule": "Matricule",
+    "Be safe": "Sécurité d'abord",
+    "Chute d'objet": "Chute d’objet",
+    "Chute d'hauteur": "Chute d’hauteur ",
+    "Circulation, déplacement, chute de plain pied": "Circulation, déplacement, chute de plain pied",
+    "Energie (électrique, gaz, vapeur, hydraulique, résiduelle …)": "Energie (électrique, gaz, vapeur, hydraulique, résiduelle …)",
+    "Gestuelle au poste du travail": "Gestuelle au poste du travail",
+    "Incendie et explosion": "Incendie et explosion",
+    "Machine ou pièce en mouvement": "Machine ou pièce en mouvement",
+    "Manutention manuelle": "Manutention manuelle",
+    "Manutention mécanique": "Manutention mécanique",
+    "Outil à main": "Outil à main",
+    "Produit chimique": "Produit chimique",
+    "Projection (objet, fluide, poussière)": "Projection (objet, fluide, poussière)",
+    "Environnement du travail (bruit, ambiance lumineuse, ambiance thermique, vibration, rayonnement, …)": "Environnement du travail (bruit, ambiance lumineuse, ambiance thermique, vibration, rayonnement, …)",
+    "Situation dangereuse": "Situation dangereuse",
+    "Presque-accident": "Presque-accident",
+    "Soin": "Soin",
+    "Accident sans arrêt": "Accident sans arrêt",
+    "Accident avec arrêt": "Accident avec arrêt",
+    
+    "Mélange déchets": "Mélange déchets",
+    "Excès de génération des déchets": "Excès de génération des déchets",
+    "Déversement accidentel": "Déversement accidentel",
+    "Consommation (eau, électricité,gaz, carburant)": "Consommation (eau, électricité,gaz, carburant)",
+    "Fuite ( eau, gaz, air, carburant)": "Fuite ( eau, gaz, air, carburant)",
+    "Stockage produit chimique": "Stockage produit chimique",
+    "Consommation matière première": "Consommation matière première",
+    "Produit périmé": "Produit périmé",
+    "Incendie": "Incendie",
+    "Explosion": "Explosion",
+    "Pollution/Incendie mineur": "Pollution/Incendie mineur",
+    "Pollution/Incendie sans secours exterieur": "Pollution/Incendie sans secours exterieur",
+    "Pollution/Incendie avec secours extérieur": "Pollution/Incendie avec secours extérieur",
+    "Pollution/Incendie majeur": "Pollution/Incendie majeur",
+    "Méthode : Pas de procedure definissant le mode operatoire, pas de plan de contrôle , pas d'instruction…": "Méthode : Pas de procedure definissant le mode operatoire, pas de plan de contrôle , pas d'instruction…",
+    "Matériel : Machine en panne, machine/outillage en nombre insuffisant, inadaptée, obsolète, outillage défectueux": "Matériel : Machine en panne, machine/outillage en nombre insuffisant, inadaptée, obsolète, outillage défectueux",
+    "Main d'oeuvre : Personnel peu compétent, mal formé, non motivé, en nombre insuffisant": "Main d'oeuvre : Personnel peu compétent, mal formé, non motivé, en nombre insuffisant",
+    "Matière : Matière première non conforme": "Matière : Matière première non conforme",
+    "Milieu : Condition de travail, bruit, température": "Milieu : Condition de travail, bruit, température",
+    "Management : Méthode d'encadrement, style de commandement, délégation, organisation...": "Management : Méthode d'encadrement, style de commandement, délégation, organisation...",
+    "Moyen financier : Budget alloué, cout": "Moyen financier : Budget alloué, cout",
+    "Très faible": "Très faible",
+    "Faible": "Faible",
+    "Moyen": "Moyen",
+    "Grave": "Grave",
+    "STOP card": "STOP CARD !!",
+    "Lancement nouveaux projets": {
+        "text": "1- Lancement nouveaux projets",
+        "image": "assets/QNN/Q1.png"
+    },
+    "OK 1ère pièce": {
+        "text": "2- OK 1ère pièce",
+        "image": "assets/QNN/Q2.png"
+    },
+    "Auto controle et Arret au défaut": {
+        "text": "3- Auto controle et Arret au défaut",
+        "image": " assets/QNN/Q3.png"
+    },
+    "Retouche sous controle": {
+        "text": "4- Retouche sous controle",
+        "image": " assets/QNN/Q4.png"
+    },
+    "Gestion des rejets": {
+        "text": "5- Gestion des rejets",
+        "image": " assets/QNN/Q5.png"
+    },
+    "Méthode standardisée de resolution de problème": {
+        "text": "6- Méthode standardisée de resolution de problème",
+        "image": " assets/QNN/Q6.png"
+    },
+    "Capabilité des process": {
+        "text": "7- Capabilité des process",
+        "image": " assets/QNN/Q7.png"
+    },
+    "Gestion des murs qualité temporaires(TQW)": {
+        "text": "8- Gestion des murs qualité temporaires(TQW)",
+        "image": " assets/QNN/Q8.png"
+    },
+    "Autres": {
+        "text": "Autres règles",
+        "image": " assets/QNN/other.png"
+    },
+
+    "Situation à risques": {
+        "text": "1- Situation à risques",
+        "image": "assets/regles_dor/S1.png"
+    },
+    "Circulation": {
+        "text": "2- Circulation",
+        "image": "assets/regles_dor/S2.png"
+    },
+    "Gestes, postures outillages": {
+        "text": "3- Gestes, postures outillages",
+        "image": "assets/regles_dor/S3.png"
+    },
+    "Équipements de protection": {
+        "text": "4- Équipements de protection",
+        "image": "assets/regles_dor/S4.png"
+    },
+    "Permis de travail": {
+        "text": "5- Permis de travail",
+        "image": "assets/regles_dor/S5.png"
+    },
+    "Opérations de levage": {
+        "text": "6- Opérations de levage",
+        "image": "assets/regles_dor/S6.png"
+    },
+    "Systèmes alimentés en énergie": {
+        "text": "7- Systèmes alimentés en énergie",
+        "image": "assets/regles_dor/S7.png"
+    },
+    "Espaces confinés": {
+        "text": "8- Espaces confinés",
+        "image": "assets/regles_dor/S8.png"
+    },
+    "Travaux de fouille": {
+        "text": "9- Travaux de fouille",
+        "image": "assets/regles_dor/S9.png"
+    },
+    "Travaux en hauteur": {
+        "text": "10- Travail à chaud",
+        "image": "assets/regles_dor/S10.png"
+    },
+    "Gestion du changement": {
+        "text": "11- Gestion du changement",
+        "image": "assets/regles_dor/S11.png"
+    },
+    "Opérations simultanées ou coactivités": {
+        "text": "12- Ligne de danger",
+        "image": "assets/regles_dor/S12.png"
+    },
+
+
+    "QUALITY": {
+        "text": "Qualité",
+        "icon": "fas fa-thumbs-up",
+        "color": "#800080"
+    },
+    "SAFETY": {
+        "text": "Sécurité",
+        "icon": "fas fa-shield-alt",
+        "color": "#DAA520"
+    },
+    "ENVIRONMENT": {
+        "text": "Environnement",
+        "icon": "fab fa-envira",
+        "color": "#228B22"
+    },
+    "Déclarer une DS": "Déclarer une Situation Dangereuse",
+    "Faire une suggestion": "Faire une suggestion",
+    "a": {
+        "a1": "a1",
+        "icon": "home"
+    },
+    
+    "Autre": "Autre",
+    "Rules": "Régles non respectées",
+    "Causes de risque": "Cause(s) du risque",
+    "Choisir le type de DS": "Type de la Situation Dangeureuse",
+    "Lieu de DS": "Lieu de la Situation Dangereuse",
+    "Niveau de gravité du risque": "Niveau de gravité du risque",
+    "Décrire brièvement le risque": "Décrivez brièvement le ce qui s'est passé",
+    "Risque machine": "S'agit-il d'un risque machine ?",
+    "Envoyer et terminer": "Terminer et envoyer",
+    "Suivant": "Suivant →",
+    "Retour": "← Retour",
+
+    "Saisissez votre matricule":"Saisissez votre Matricule",
+    "Description": "Description du risque",
+    "Saisissez une autre cause": "Saisissez une autre cause",
+
+    "direction": "ltr",
+
+    "Confirmation":"Confirmation",
+    "Confirmez-vous vos informations ?": "Confirmez-vous vos informations ?",
+    "Annuler": "Annuler",
+    "Confirmer et continuer":"Confirmer et continuer",
+
+    "Rules_QNN": "Les règle(s) QNN non respectée(s)",
+    "Rules_OR": "Les règle(s) d'OR non respectée(s)",
+
+    "oui": "Oui",
+    "non": "Non",
+
+    "optionnel": "Optionnel",
+    "declarant": "Déclarant de la situation dangereuse"
+}

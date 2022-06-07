@@ -1,0 +1,2 @@
+open dist folder
+cmd : angular-http-server
