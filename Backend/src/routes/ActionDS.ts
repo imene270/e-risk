@@ -59,9 +59,10 @@ router.post("/Actioninsert", async function (req: Request, res: Response) {
 
     const results = await ACTION.save(action);
     console.log(results);
-      
-        const data = JSON.parse(JSON.stringify(results));
-    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/insert"+data.ACTION_ID+".json",JSON.stringify(results),error => {
+  
+        const data = (JSON.parse( JSON.stringify(results )));
+        console.log('data imen: ' + data)
+        fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/E-RISK"+data.ACTION_ID+".json", '{ "operation type" :"insert", "data" :' +JSON.stringify(results) +"}",error => {
         if(error) {
             throw error;
         }
@@ -70,10 +71,8 @@ router.post("/Actioninsert", async function (req: Request, res: Response) {
 
     return res.send(results);
 
-
-
-  
 });
+
 
 /**
  * Modifier les actions
@@ -83,7 +82,7 @@ router.put("/Editaction/:id", async function (req: Request, res: Response) {
     ACTION.merge(action, req.body);
     const results = await ACTION.save(action);
     const data = JSON.parse(JSON.stringify(results));
-    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/modifie"+data.ACTION_ID+".json",JSON.stringify(results),error => {
+    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/E-RISK"+data.ACTION_ID+".json", '{ "operation type" :"modifie", "data" :' +JSON.stringify(results) +"}",error => {
         if(error) {
             throw error;
         }
@@ -95,11 +94,18 @@ router.put("/Editaction/:id", async function (req: Request, res: Response) {
  * Supprimer une action
  */
 router.delete("/deleteAction/:id", async function (req: Request, res: Response) {
+   const dataa= (req.params.id)
     const results = await ACTION.delete(req.params.id);
-    const data = JSON.parse(JSON.stringify(results));
-    console.log("suprrrimer id  " + JSON.stringify(data.ACTION_ID))
-    //console.log("suprrrimer id 2  " + ACTION.ACTION_ID) 
-   console.log("suprrrimer " + JSON.stringify(results))
+
+    console.log("suprrrimer id 2  " + dataa) 
+    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/E-RISK"+dataa+".json", '{ "operation type" :"supprime", "data" :' +JSON.stringify(dataa) +"}",error => {
+
+        if(error) {
+            throw error;
+        }
+     //   console.log("strignify : " + JSON.stringify(results));
+    });
+
     return res.send(results);
 })
 /**
