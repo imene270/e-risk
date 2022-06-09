@@ -98,7 +98,7 @@ router.delete("/deleteAction/:id", async function (req: Request, res: Response) 
     const results = await ACTION.delete(req.params.id);
 
     console.log("suprrrimer id 2  " + dataa) 
-    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/E-RISK"+dataa+".json", '{ "operation type" :"supprime", "data" :' +JSON.stringify(dataa) +"}",error => {
+    fs.writeFile("C:/Users/pc/OneDrive/trigger/e-risk/E-RISK"+dataa+".json", '{ "operation type" :"supprime", "data" :{ "ACTION_ID" : ' +JSON.stringify(dataa) +"}",error => {
 
         if(error) {
             throw error;
